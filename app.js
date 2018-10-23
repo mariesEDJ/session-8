@@ -1,45 +1,55 @@
 var app = new Vue({
   el: '#app',
   data: {
-    firstName: "Jules",
-    lastName: "Bonnard",
-    description: "Je suis datajournaliste à l'AFP et j'enseigne le code, le traitement, et la visualisation de données à Sciences Po.",
-    photo: "https://pbs.twimg.com/profile_images/899285838516936704/nfeLD7he_400x400.jpg",
-    twitter: "julesbonnard",
-    github: "julesbonnard",
-    mail: "julesbonnard@gmail.com",
+    firstName: "Marie",
+    lastName: "Sasin",
+    description: "Journaliste en formation à Sciences Po, parcours Data et écritures et apprentie à RTL.fr",
+    photo: "https://pbs.twimg.com/profile_images/924945309658206208/ufFgjCQL_400x400.jpg",
+    twitter: "mariesasin",
+    github: "mariesEDJ",
+    mail: "marie.sasin@sciencespo.fr",
     experiences: [{
-      dateBegin: "2014",
+      dateBegin: "Juin 2018",
       dateEnd: "Today",
-      name: "Agence France Presse",
-      title: "Datajournalist",
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      name: "RTL.fr",
+      title: "Journaliste apprentie",
+      description: "Rédaction d'articles sur l'actualité, reprise d'antenne"
     }, {
-      dateBegin: "Été 2013",
+      dateBegin: "Été 2017",
       dateEnd: false,
-      name: "Le Monde.fr",
-      title: "Data-journalist",
-      description: false
+      name: "Ouest France",
+      title: "Journaliste stagiaire à la rédaction locale de Caen (Calvados)",
+      description: "Rédaction d'articles sur l'actualité locale print et web"
     }, {
-      dateBegin: "2012",
-      dateEnd: "2013",
-      name: "Le Dauphiné Libéré",
-      title: "Stagiaire et correspondant de presse",
-      description: false
+      dateBegin: "Été 2016",
+      dateEnd: false,
+      name: "L'Union-L'Ardennais",
+      title: "Journaliste stagiaire à la rédaction locale de Châlons-en-Champagne (Marne)",
+      description: "Rédaction d'articles sur l'actualité locale print et web, faits divers, tribunal correctionnel"
     }],
     formations: [{
-      dateBegin: "2012",
-      dateEnd: "2014",
+      dateBegin: "2017",
+      dateEnd: "2019",
       name: "Master Journalisme",
-      university: "Sciences Po Grenoble"
+      university: "Ecole de journalisme de Sciences Po"
+    },{
+      dateBegin: "2017",
+      dateEnd: "2016",
+      name: "Maîtrise d'Information-Communication",
+      university: "Institut français de presse (Paris II) - Panthéon-Assas"
     }, {
-      dateBegin: "2009",
-      dateEnd: "2012",
-      name: "Bachelor Sciences Politiques",
-      university: "Sciences Po Grenoble"
+      dateBegin: "2016",
+      dateEnd: "2015",
+      name: "Bi-licence Histoire/Information-communication",
+      university: "Institut français de presse (Paris II) et Sorbonne (Paris IV)"
+    },{
+      dateBegin: "2013",
+      dateEnd: "2014",
+      name: "Hypokhâgne - Khâgne B/L",
+      university: "Lycée Jean Jaurès - Reims (Marne)"
     }],
-    languages: ["Anglais"],
-    skills: ["Node", "VueJS", "D3js", "SCSS", "HTML"]
+    languages: ["Anglais", "Espagnol", "Russe"],
+    skills: ["Suite Office", "Eidos", "Revo", "Netia", "Cutscene"]
   },
   computed: {
     fullName() {
